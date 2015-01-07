@@ -1,0 +1,25 @@
+Metadata-Version: 1.0
+Name: XStatic-smart-table
+Version: 1.4.5.3
+Summary: smart-table 1.4.5 (XStatic packaging standard)
+Home-page: https://github.com/lorenzofox3/Smart-Table
+Author: Richard Jones
+Author-email: r1chardj0n3s@gmail.com
+License: (same as smart-table)
+Description: 
+        XStatic-smart-table
+        -------------------
+        
+        smart-table javascript library packaged for setuptools (easy_install) / pip.
+        
+        This package is intended to be used by **any** project that needs these files.
+        
+        It intentionally does **not** provide any extra code except some metadata
+        **nor** has any extra requirements. You MAY use some minimal support code from
+        the XStatic base package, if you like.
+        
+        You can find more info about the xstatic packaging way in the package
+        `XStatic`.
+        
+Keywords: smart-table angular table angular_smart_table xstatic
+Platform: any
