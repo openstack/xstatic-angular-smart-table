@@ -1,27 +1,17 @@
-
-from xstatic.pkg import angular_smart_table as xs
+from setuptools import setup, find_packages
 
 # The README.txt file should be written in reST so that PyPI can use
 # it to generate your project's PyPI page.
 long_description = open('README.txt').read()
 
-from setuptools import setup, find_packages
-
 setup(
-    name=xs.PACKAGE_NAME,
-    version=xs.PACKAGE_VERSION,
-    description=xs.DESCRIPTION,
-    long_description=long_description,
-    classifiers=xs.CLASSIFIERS,
-    keywords=xs.KEYWORDS,
-    maintainer=xs.MAINTAINER,
-    maintainer_email=xs.MAINTAINER_EMAIL,
-    license=xs.LICENSE,
-    url=xs.HOMEPAGE,
-    platforms=xs.PLATFORMS,
+    name='XStatic-smart-table',
+    summary="""smart-table 1.4.13 (XStatic packaging standard)""",
+    description=long_description,
+    maintainer="Richard Jones",
+    maintainer_email='r1chardj0n3s@gmail.com',
+    use_scm_version=True,
+    setup_requires=['setuptools_scm', 'wheel'],
     packages=find_packages(),
-    namespace_packages=['xstatic', 'xstatic.pkg', ],
-    include_package_data=True,
-    zip_safe=False,
-    install_requires=[],
+    include_package_data=True
 )

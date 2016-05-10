@@ -1,6 +1,5 @@
 include README.txt
-recursive-include xstatic/pkg/angular_smart_table *
-
+recursive-include xstatic *
 global-exclude *.pyc
 global-exclude *.pyo
 global-exclude *.orig
